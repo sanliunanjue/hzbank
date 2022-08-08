@@ -1,5 +1,5 @@
 {
-    "name": "create-hzbandfk",
+    "name": "create-hzbank",
     "version": "1.0.1",
     "description": "杭州银行中后台脚手架",
     "main": "lib/index.js",

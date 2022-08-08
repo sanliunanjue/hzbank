@@ -1,0 +1,15 @@
+{
+  "name": "create-hzbank",
+  "version": "1.0.0",
+  "description": "杭州银行中后台脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hzbank",
+    "admin"
+  ],
+  "author": "weixiquan",
+  "license": "ISC"
+}

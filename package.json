@@ -1,6 +1,6 @@
 {
     "name": "create-hzbandfk",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "杭州银行中后台脚手架",
     "main": "lib/index.js",
     "scripts": {

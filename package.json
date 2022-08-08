@@ -1,10 +1,11 @@
 {
-    "name": "create-hzbank",
+    "name": "create-hzbandfk",
     "version": "1.0.0",
     "description": "杭州银行中后台脚手架",
     "main": "lib/index.js",
     "scripts": {
-        "test": "echo \"Error: run tests from root\" && exit 1"
+        "test": "echo \"Error: run tests from root\" && exit 1",
+        "build": "tsc --build ./tsconfig.json"
     },
     "keywords": [
         "hzbank",
@@ -30,11 +31,15 @@
         "commander": "^6.0.0",
         "fs-extra": "^8.1.0",
         "ice-npm-utils": "^2.0.1",
-        "inquirer": "^7.0.4"
+        "inquirer": "^7.0.4",
+        "ts-node": "^10.9.1"
     },
     "repository": {
         "type": "http",
         "url": "https://github.com/alibaba/ice/tree/master/packages/create-ice"
     },
-    "gitHead": "07ac7bb07162aac8c90778dd1de4a2060f8df498"
+    "gitHead": "07ac7bb07162aac8c90778dd1de4a2060f8df498",
+    "devDependencies": {
+        "@types/node": "^18.6.4"
+    }
 }
